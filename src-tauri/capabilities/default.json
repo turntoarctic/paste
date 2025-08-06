@@ -1,0 +1,28 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "clipboard:default" ,
+    "clipboard:allow-has-files",
+    "clipboard:allow-has-html",
+    "clipboard:allow-start-listen",
+    "clipboard:allow-stop-listen",
+    "clipboard:allow-has-image",
+    "clipboard:allow-has-rtf",
+    "clipboard:allow-has-text",
+    "clipboard:allow-read-files",
+    "clipboard:allow-read-image",
+    "clipboard:allow-read-html",
+    "clipboard:allow-read-rtf",
+    "clipboard:allow-read-text",
+    "clipboard:allow-write-files",
+    "clipboard:allow-write-image",
+    "clipboard:allow-write-html",
+    "clipboard:allow-write-rtf",
+    "clipboard:allow-write-text"
+  ]
+}
